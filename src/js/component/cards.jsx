@@ -5,10 +5,10 @@ const Cards = () => {
 	const style = {
 		width: "17rem",
 		display: "inline-block",
-		marginRight: "2px"
+		border: "none"
 	};
 	return (
-		<div className="card" style={style}>
+		<div className="card col" style={style}>
 			<img
 				className="card-img-top"
 				src="https://www.caballerovillalpandoabogados.mx/img/our-office-8.jpg"
