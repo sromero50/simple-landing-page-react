@@ -1,22 +1,8 @@
 import React from "react";
-import Jumbotron from "./jumbotron.jsx";
-import Navbar from "./navbar.jsx";
-import Footer from "./footer.jsx";
-import Cards from "./cards.jsx";
-
-//create your first component
-
-// const Home = () => {
-// 	return (
-// 		<div className="container">
-// 			<Jumbotron />
-// 			<Cards />
-// 			<Cards />
-// 			<Cards />
-// 			<Cards />
-// 		</div>
-// 	);
-// };
+import Jumbotron from "./jumbotron";
+import Navbar from "./navbar";
+import Footer from "./footer";
+import CardBox from "./cardBox";
 
 const Home = () => {
 	return (
@@ -25,10 +11,7 @@ const Home = () => {
 			<div className="container">
 				<Jumbotron />
 				<div className="row">
-					<Cards />
-					<Cards />
-					<Cards />
-					<Cards />
+					<CardBox />
 				</div>
 			</div>
 			<Footer />

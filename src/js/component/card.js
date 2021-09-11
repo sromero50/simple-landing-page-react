@@ -1,7 +1,7 @@
 import React from "react";
 
 //create your first component
-const Cards = () => {
+const Card = () => {
 	const style = {
 		width: "17rem",
 		display: "inline-block",
@@ -27,4 +27,4 @@ const Cards = () => {
 	);
 };
 
-export default Cards;
+export default Card;
